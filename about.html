@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .section
+        {
+            width: 100%;
+            min-height: 100vh;
+            background: linear-gradient(0deg, rgb(95, 91, 91), transparent);
+            background-color: rgb(36, 34, 34);
+        }
+        .container
+        {
+            width: 80%;
+            display: block;
+            margin:auto;
+            padding-top: 100px;
+        }
+        .content-section
+        {
+            float: left;
+            width: 55%;
+        }
+        .content-section .title
+        {
+            text-transform: uppercase;
+            font-size: 28px;
+            text-align: center;
+	        font-size: 19px;
+        }
+        .content-section
+        {
+            float:none;
+            width:100%;
+            display: block;
+            margin:auto;
+        }
+        .content-section .content h3
+        {
+            margin-top: 20px;
+            color:#ffffff;
+            font-size: 21px;
+        }
+        .content-section .content p
+        {
+            margin-top: 10px;
+            font-family: sans-serif;
+            font-size: 18px;
+            line-height: 1.5;
+            color:#ffffff;
+        }
+        
+    </style>
+    <title>THEATER || About Page</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+
+            <div class="logo"><i class="fa-solid fa-masks-theater"></i>THEATER</a></div>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+
+            <div style="margin:0px -20px;" class="end_bx">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="movie.html">Movies</a><i class="fas fa-angle-down"></i>
+                        <div class="list">
+                            <a href="amharic.html">Amharic</a>
+                            <a href="english.html">English</a>
+                            <a href="korea.html">Korean</a>
+                            <a href="turkish.html">Turkish</a>
+                        </div></li>
+                    <li><a href="series.html">Series</a></li>
+                    <li><a href="radiodrama.html">Radio Drama</a></li>
+                    <li><a href="comingsoon.html">Coming Soon</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>  
+            
+        </nav>      
+    </header>
+    <div class="section">
+		<div class="container">
+			<div class="content-section">
+				<div class="title">
+					<h1>About Project</h1>
+				</div>
+				<div class="content">
+					<h3>How the project came to be</h3>
+					<p>This project was given by Ato Betesegaw Lemma under frontend development.from the given topics i have chosen the Entertainment area ; A movie website called Theater.I have tried to incompase the things most movie webs have what makes this website unique is that it gives countdowns for new films and also has radio drama for Ethiopians.</p>
+                    <h3>Content Describtion</h3>
+                    <p>The form requirement are at home page</p>
+                    <p>The video requirement are at movie,series and comingsoon pages</p>
+                    <p>The audio requirement are at radio drama page</p>
+                    <p>The link requirement are at series page</p>
+                    <p>The list requirement are at all pages have list</p>
+                    <p>The paragraph requirement are at about and movies page</p>
+                    <p>The headers requirement are at all pages</p>
+                    <p>The footer requirement are all home pages</p>
+                    <p>The navigation requirement are at all pages</p>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+    <section style="margin: -2600px -20px;"class="footer">
+        <div class="social">
+            <a><i class="fa-brands fa-facebook"></i></a>
+            <a><i class="fa-brands fa-instagram"></i></a>
+            <a><i class="fa-brands fa-twitter"></i></a>
+            <a><i class="fa-brands fa-snapchat"></i></a>
+            <a><i class="fa-brands fa-tiktok"></i></a>
+        </div>    
+        <ul class="list">
+            <li><a href="index.html">Home</a></li> 
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="series.html">Series</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+        <p class="copyright">
+            Future Coder Liyat Tesfaye@2022-All Right Reserved.
+        </p>
+    </section>
+    <script>
+        const toggleButton = document.getElementsByClassName('toggle-button')[0]
+        const endBx = document.getElementsByClassName('end_bx')[0]
+    
+        toggleButton.addEventListener('click', () => {
+            endBx.classList.toggle('active')
+        })
+    </script>
+    
+
+</body>
+</html>    
