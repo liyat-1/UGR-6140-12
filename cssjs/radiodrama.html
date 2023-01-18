@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+    </style>
+    <title>THEATER || Radio Drama Page</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+
+            <div class="logo"><i class="fa-solid fa-masks-theater"></i>THEATER</a></div>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+
+            <div style="margin:0px -20px;" class="end_bx">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="movie.html">Movies</a><i class="fas fa-angle-down"></i>
+                        <div class="list">
+                            <a href="amharic.html">Amharic</a>
+                            <a href="english.html">English</a>
+                            <a href="korea.html">Korean</a>
+                            <a href="turkish.html">Turkish</a>
+                        </div></li>
+                    <li><a href="series.html">Series</a></li>
+                    <li><a href="radiodrama.html">Radio Drama</a></li>
+                    <li><a href="comingsoon.html">Coming Soon</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>  
+            
+        </nav>   
+        <div class="radio">
+            <div class="radio-container">
+                <div class="box">
+                    <div class="rimaga">
+                        <img src="img/wa1.jpg">
+                    </div>
+                    <div class="drama">
+                        <audio src="audio/1.mp3" controls>
+                    </div>            
+                </div>
+    
+                <div class="box">
+                    <div class="rimaga">
+                        <img src="img/wa2.jpg">
+                    </div>
+                    <div class="drama">
+                        <audio src="audio/2.mp3.mp3" controls>
+                    </div>            
+                </div>
+    
+                <div class="box">
+                    <div class="rimaga">
+                        <img src="img/wa3.jpg">
+                    </div>
+                    <div class="drama">
+                        <audio src="audio/3.mp3" controls>
+                    </div>            
+                </div>
+    
+                <div class="box">
+                    <div class="rimaga">
+                        <img src="img/wa4.jpg">
+                    </div>
+                    <div class="drama">
+                        <audio src="audio/4.mp3" controls>
+                    </div>            
+                </div>
+    
+                <div class="box">
+                    <div class="rimaga">
+                        <img src="img/wa5.jpg">
+                    </div>
+                    <div class="drama">
+                        <audio src="audio/5.mp3" controls>
+                    </div>            
+                </div>
+    
+                <div class="box">
+                    <div class="rimaga">
+                        <img src="img/wa6.jpg">
+                    </div>
+                    <div class="drama">
+                        <audio src="audio/6.mp3" controls>
+                    </div>            
+                </div>
+            </div>
+        </div>
+        
+    </header>
+
+    
+   
+    
+    <script>
+        const toggleButton = document.getElementsByClassName('toggle-button')[0]
+        const endBx = document.getElementsByClassName('end_bx')[0]
+    
+        toggleButton.addEventListener('click', () => {
+            endBx.classList.toggle('active')
+        })
+    </script>
+
+</body>
+</html>    
